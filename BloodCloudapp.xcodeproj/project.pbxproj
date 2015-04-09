@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24411441AD6B5AF0024AF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24411431AD6B5AF0024AF73 /* AppDelegate.swift */; };
+		C24411471AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C24411451AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld */; };
+		C24411491AD6B5AF0024AF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24411481AD6B5AF0024AF73 /* ViewController.swift */; };
+		C244114C1AD6B5AF0024AF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244114A1AD6B5AF0024AF73 /* Main.storyboard */; };
+		C244114E1AD6B5AF0024AF73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C244114D1AD6B5AF0024AF73 /* Images.xcassets */; };
+		C24411511AD6B5AF0024AF73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C244114F1AD6B5AF0024AF73 /* LaunchScreen.xib */; };
+		C244115D1AD6B5AF0024AF73 /* BloodCloudappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244115C1AD6B5AF0024AF73 /* BloodCloudappTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24411571AD6B5AF0024AF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24411361AD6B5AF0024AF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C244113D1AD6B5AF0024AF73;
+			remoteInfo = BloodCloudapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C244113E1AD6B5AF0024AF73 /* BloodCloudapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodCloudapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24411421AD6B5AF0024AF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24411431AD6B5AF0024AF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C24411461AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BloodCloudapp.xcdatamodel; sourceTree = "<group>"; };
+		C24411481AD6B5AF0024AF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C244114B1AD6B5AF0024AF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C244114D1AD6B5AF0024AF73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C24411501AD6B5AF0024AF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C24411561AD6B5AF0024AF73 /* BloodCloudappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodCloudappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C244115B1AD6B5AF0024AF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C244115C1AD6B5AF0024AF73 /* BloodCloudappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodCloudappTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C244113B1AD6B5AF0024AF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24411531AD6B5AF0024AF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24411351AD6B5AF0024AF73 = {
+			isa = PBXGroup;
+			children = (
+				C24411401AD6B5AF0024AF73 /* BloodCloudapp */,
+				C24411591AD6B5AF0024AF73 /* BloodCloudappTests */,
+				C244113F1AD6B5AF0024AF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C244113F1AD6B5AF0024AF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C244113E1AD6B5AF0024AF73 /* BloodCloudapp.app */,
+				C24411561AD6B5AF0024AF73 /* BloodCloudappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24411401AD6B5AF0024AF73 /* BloodCloudapp */ = {
+			isa = PBXGroup;
+			children = (
+				C24411431AD6B5AF0024AF73 /* AppDelegate.swift */,
+				C24411481AD6B5AF0024AF73 /* ViewController.swift */,
+				C244114A1AD6B5AF0024AF73 /* Main.storyboard */,
+				C244114D1AD6B5AF0024AF73 /* Images.xcassets */,
+				C244114F1AD6B5AF0024AF73 /* LaunchScreen.xib */,
+				C24411451AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld */,
+				C24411411AD6B5AF0024AF73 /* Supporting Files */,
+			);
+			path = BloodCloudapp;
+			sourceTree = "<group>";
+		};
+		C24411411AD6B5AF0024AF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24411421AD6B5AF0024AF73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C24411591AD6B5AF0024AF73 /* BloodCloudappTests */ = {
+			isa = PBXGroup;
+			children = (
+				C244115C1AD6B5AF0024AF73 /* BloodCloudappTests.swift */,
+				C244115A1AD6B5AF0024AF73 /* Supporting Files */,
+			);
+			path = BloodCloudappTests;
+			sourceTree = "<group>";
+		};
+		C244115A1AD6B5AF0024AF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C244115B1AD6B5AF0024AF73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C244113D1AD6B5AF0024AF73 /* BloodCloudapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24411601AD6B5AF0024AF73 /* Build configuration list for PBXNativeTarget "BloodCloudapp" */;
+			buildPhases = (
+				C244113A1AD6B5AF0024AF73 /* Sources */,
+				C244113B1AD6B5AF0024AF73 /* Frameworks */,
+				C244113C1AD6B5AF0024AF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodCloudapp;
+			productName = BloodCloudapp;
+			productReference = C244113E1AD6B5AF0024AF73 /* BloodCloudapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C24411551AD6B5AF0024AF73 /* BloodCloudappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24411631AD6B5AF0024AF73 /* Build configuration list for PBXNativeTarget "BloodCloudappTests" */;
+			buildPhases = (
+				C24411521AD6B5AF0024AF73 /* Sources */,
+				C24411531AD6B5AF0024AF73 /* Frameworks */,
+				C24411541AD6B5AF0024AF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24411581AD6B5AF0024AF73 /* PBXTargetDependency */,
+			);
+			name = BloodCloudappTests;
+			productName = BloodCloudappTests;
+			productReference = C24411561AD6B5AF0024AF73 /* BloodCloudappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24411361AD6B5AF0024AF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = inflexion.Prasanth;
+				TargetAttributes = {
+					C244113D1AD6B5AF0024AF73 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C24411551AD6B5AF0024AF73 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C244113D1AD6B5AF0024AF73;
+					};
+				};
+			};
+			buildConfigurationList = C24411391AD6B5AF0024AF73 /* Build configuration list for PBXProject "BloodCloudapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24411351AD6B5AF0024AF73;
+			productRefGroup = C244113F1AD6B5AF0024AF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C244113D1AD6B5AF0024AF73 /* BloodCloudapp */,
+				C24411551AD6B5AF0024AF73 /* BloodCloudappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C244113C1AD6B5AF0024AF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244114C1AD6B5AF0024AF73 /* Main.storyboard in Resources */,
+				C24411511AD6B5AF0024AF73 /* LaunchScreen.xib in Resources */,
+				C244114E1AD6B5AF0024AF73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24411541AD6B5AF0024AF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C244113A1AD6B5AF0024AF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24411491AD6B5AF0024AF73 /* ViewController.swift in Sources */,
+				C24411471AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld in Sources */,
+				C24411441AD6B5AF0024AF73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24411521AD6B5AF0024AF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244115D1AD6B5AF0024AF73 /* BloodCloudappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24411581AD6B5AF0024AF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C244113D1AD6B5AF0024AF73 /* BloodCloudapp */;
+			targetProxy = C24411571AD6B5AF0024AF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C244114A1AD6B5AF0024AF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C244114B1AD6B5AF0024AF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C244114F1AD6B5AF0024AF73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24411501AD6B5AF0024AF73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C244115E1AD6B5AF0024AF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C244115F1AD6B5AF0024AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24411611AD6B5AF0024AF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodCloudapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C24411621AD6B5AF0024AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodCloudapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C24411641AD6B5AF0024AF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BloodCloudappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodCloudapp.app/BloodCloudapp";
+			};
+			name = Debug;
+		};
+		C24411651AD6B5AF0024AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BloodCloudappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodCloudapp.app/BloodCloudapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24411391AD6B5AF0024AF73 /* Build configuration list for PBXProject "BloodCloudapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C244115E1AD6B5AF0024AF73 /* Debug */,
+				C244115F1AD6B5AF0024AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24411601AD6B5AF0024AF73 /* Build configuration list for PBXNativeTarget "BloodCloudapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24411611AD6B5AF0024AF73 /* Debug */,
+				C24411621AD6B5AF0024AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C24411631AD6B5AF0024AF73 /* Build configuration list for PBXNativeTarget "BloodCloudappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24411641AD6B5AF0024AF73 /* Debug */,
+				C24411651AD6B5AF0024AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C24411451AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C24411461AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodel */,
+			);
+			currentVersion = C24411461AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodel */;
+			path = BloodCloudapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C24411361AD6B5AF0024AF73 /* Project object */;
+}

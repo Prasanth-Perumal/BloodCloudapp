@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C232803B1AD80DF000CE70ED /* mapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26BEF871AD7AEFF00DDFF25 /* mapsController.swift */; };
+		C232803C1AD80E7700CE70ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244114A1AD6B5AF0024AF73 /* Main.storyboard */; };
+		C234CFF31ADBC5CD00263F56 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234CFF21ADBC5CD00263F56 /* SSRadioButtonsController.swift */; };
+		C234CFF71ADBC8AE00263F56 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234CFF61ADBC8AE00263F56 /* RegisterController.swift */; };
+		C234CFF91ADBE21B00263F56 /* Sign-RadioButton02-Unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = C234CFF81ADBE21B00263F56 /* Sign-RadioButton02-Unchecked.png */; };
+		C234CFFB1ADBE72300263F56 /* radiobutton-checked-sm-th.png in Resources */ = {isa = PBXBuildFile; fileRef = C234CFFA1ADBE72300263F56 /* radiobutton-checked-sm-th.png */; };
 		C24411441AD6B5AF0024AF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24411431AD6B5AF0024AF73 /* AppDelegate.swift */; };
 		C24411471AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C24411451AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld */; };
 		C24411491AD6B5AF0024AF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24411481AD6B5AF0024AF73 /* ViewController.swift */; };
-		C244114C1AD6B5AF0024AF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244114A1AD6B5AF0024AF73 /* Main.storyboard */; };
 		C244114E1AD6B5AF0024AF73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C244114D1AD6B5AF0024AF73 /* Images.xcassets */; };
 		C24411511AD6B5AF0024AF73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C244114F1AD6B5AF0024AF73 /* LaunchScreen.xib */; };
 		C244115D1AD6B5AF0024AF73 /* BloodCloudappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244115C1AD6B5AF0024AF73 /* BloodCloudappTests.swift */; };
+		C24411671AD6B7150024AF73 /* header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24411661AD6B7150024AF73 /* header.swift */; };
+		C24411691AD6B7200024AF73 /* CAGradientLayer+Convience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24411681AD6B7200024AF73 /* CAGradientLayer+Convience.swift */; };
+		C244116B1AD6B7770024AF73 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C244116A1AD6B7770024AF73 /* logo.png */; };
+		C26BEF861AD7A64A00DDFF25 /* Donorlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26BEF851AD7A64900DDFF25 /* Donorlist.swift */; };
+		C281BC291ADE80FE00BE60F3 /* routeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C281BC281ADE80FE00BE60F3 /* routeController.swift */; };
+		C281BC2F1ADE8CBD00BE60F3 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C281BC2E1ADE8CBD00BE60F3 /* GooglePlace.swift */; };
+		C281BC321ADE8D4100BE60F3 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C281BC311ADE8D4100BE60F3 /* GoogleDataProvider.swift */; };
+		C2ED8B6F1AD7B36C00385E94 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B6E1AD7B36C00385E94 /* GoogleMaps.framework */; };
+		C2ED8B711AD7B39C00385E94 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2ED8B701AD7B39C00385E94 /* GoogleMaps.bundle */; };
+		C2ED8B731AD7EE4100385E94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B721AD7EE4000385E94 /* AVFoundation.framework */; };
+		C2ED8B751AD7EE4C00385E94 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B741AD7EE4C00385E94 /* CoreData.framework */; };
+		C2ED8B771AD7EE5900385E94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B761AD7EE5900385E94 /* CoreLocation.framework */; };
+		C2ED8B791AD7EE6E00385E94 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B781AD7EE6E00385E94 /* CoreText.framework */; };
+		C2ED8B7B1AD7EE8100385E94 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B7A1AD7EE8100385E94 /* GLKit.framework */; };
+		C2ED8B7D1AD7EE9000385E94 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B7C1AD7EE9000385E94 /* ImageIO.framework */; };
+		C2ED8B7F1AD7EEA400385E94 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B7E1AD7EEA400385E94 /* libc++.dylib */; };
+		C2ED8B811AD7EEBF00385E94 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B801AD7EEBF00385E94 /* libicucore.dylib */; };
+		C2ED8B831AD7EEDA00385E94 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B821AD7EEDA00385E94 /* libz.dylib */; };
+		C2ED8B851AD7EF0200385E94 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B841AD7EF0200385E94 /* OpenGLES.framework */; };
+		C2ED8B871AD7EF2700385E94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B861AD7EF2700385E94 /* QuartzCore.framework */; };
+		C2ED8B891AD7EF3900385E94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ED8B881AD7EF3900385E94 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C234CFF21ADBC5CD00263F56 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSRadioButtonsController.swift; path = "../../../../Downloads/SSRadioButtonsController-master/SSRadioButtonController/SSRadioButtonsController.swift"; sourceTree = "<group>"; };
+		C234CFF61ADBC8AE00263F56 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		C234CFF81ADBE21B00263F56 /* Sign-RadioButton02-Unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign-RadioButton02-Unchecked.png"; path = "../../../../Downloads/Sign-RadioButton02-Unchecked.png"; sourceTree = "<group>"; };
+		C234CFFA1ADBE72300263F56 /* radiobutton-checked-sm-th.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radiobutton-checked-sm-th.png"; sourceTree = "<group>"; };
 		C244113E1AD6B5AF0024AF73 /* BloodCloudapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodCloudapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24411421AD6B5AF0024AF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C24411431AD6B5AF0024AF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +68,29 @@
 		C24411561AD6B5AF0024AF73 /* BloodCloudappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodCloudappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C244115B1AD6B5AF0024AF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C244115C1AD6B5AF0024AF73 /* BloodCloudappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodCloudappTests.swift; sourceTree = "<group>"; };
+		C24411661AD6B7150024AF73 /* header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = header.swift; path = ../../BloodCloud/BloodCloud/header.swift; sourceTree = "<group>"; };
+		C24411681AD6B7200024AF73 /* CAGradientLayer+Convience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAGradientLayer+Convience.swift"; path = "../../BloodCloud/BloodCloud/CAGradientLayer+Convience.swift"; sourceTree = "<group>"; };
+		C244116A1AD6B7770024AF73 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../BloodCloud/BloodCloud/logo.png; sourceTree = "<group>"; };
+		C26BEF851AD7A64900DDFF25 /* Donorlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donorlist.swift; sourceTree = "<group>"; };
+		C26BEF871AD7AEFF00DDFF25 /* mapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapsController.swift; sourceTree = "<group>"; };
+		C281BC281ADE80FE00BE60F3 /* routeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = routeController.swift; sourceTree = "<group>"; };
+		C281BC2E1ADE8CBD00BE60F3 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GooglePlace.swift; path = Model/GooglePlace.swift; sourceTree = "<group>"; };
+		C281BC311ADE8D4100BE60F3 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		C2ED8B6E1AD7B36C00385E94 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../../../../Downloads/GoogleMaps-iOS-1.9.2/GoogleMaps.framework"; sourceTree = "<group>"; };
+		C2ED8B701AD7B39C00385E94 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../../Downloads/GoogleMaps-iOS-1.9.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		C2ED8B721AD7EE4000385E94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C2ED8B741AD7EE4C00385E94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2ED8B761AD7EE5900385E94 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2ED8B781AD7EE6E00385E94 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C2ED8B7A1AD7EE8100385E94 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C2ED8B7C1AD7EE9000385E94 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C2ED8B7E1AD7EEA400385E94 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C2ED8B801AD7EEBF00385E94 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C2ED8B821AD7EEDA00385E94 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C2ED8B841AD7EF0200385E94 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C2ED8B861AD7EF2700385E94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2ED8B881AD7EF3900385E94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C2ED8B8B1AD7F06500385E94 /* BloodCloudapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BloodCloudapp-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +98,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2ED8B891AD7EF3900385E94 /* SystemConfiguration.framework in Frameworks */,
+				C2ED8B871AD7EF2700385E94 /* QuartzCore.framework in Frameworks */,
+				C2ED8B851AD7EF0200385E94 /* OpenGLES.framework in Frameworks */,
+				C2ED8B831AD7EEDA00385E94 /* libz.dylib in Frameworks */,
+				C2ED8B811AD7EEBF00385E94 /* libicucore.dylib in Frameworks */,
+				C2ED8B7F1AD7EEA400385E94 /* libc++.dylib in Frameworks */,
+				C2ED8B7D1AD7EE9000385E94 /* ImageIO.framework in Frameworks */,
+				C2ED8B7B1AD7EE8100385E94 /* GLKit.framework in Frameworks */,
+				C2ED8B791AD7EE6E00385E94 /* CoreText.framework in Frameworks */,
+				C2ED8B771AD7EE5900385E94 /* CoreLocation.framework in Frameworks */,
+				C2ED8B751AD7EE4C00385E94 /* CoreData.framework in Frameworks */,
+				C2ED8B731AD7EE4100385E94 /* AVFoundation.framework in Frameworks */,
+				C2ED8B6F1AD7B36C00385E94 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +127,11 @@
 		C24411351AD6B5AF0024AF73 = {
 			isa = PBXGroup;
 			children = (
+				C2ED8B8A1AD7F02E00385E94 /* libraries */,
 				C24411401AD6B5AF0024AF73 /* BloodCloudapp */,
 				C24411591AD6B5AF0024AF73 /* BloodCloudappTests */,
 				C244113F1AD6B5AF0024AF73 /* Products */,
+				C2ED8B8B1AD7F06500385E94 /* BloodCloudapp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +147,18 @@
 		C24411401AD6B5AF0024AF73 /* BloodCloudapp */ = {
 			isa = PBXGroup;
 			children = (
+				C2ED8B6E1AD7B36C00385E94 /* GoogleMaps.framework */,
+				C2ED8B701AD7B39C00385E94 /* GoogleMaps.bundle */,
 				C24411431AD6B5AF0024AF73 /* AppDelegate.swift */,
+				C281BC281ADE80FE00BE60F3 /* routeController.swift */,
+				C26BEF871AD7AEFF00DDFF25 /* mapsController.swift */,
+				C234CFF61ADBC8AE00263F56 /* RegisterController.swift */,
 				C24411481AD6B5AF0024AF73 /* ViewController.swift */,
 				C244114A1AD6B5AF0024AF73 /* Main.storyboard */,
 				C244114D1AD6B5AF0024AF73 /* Images.xcassets */,
 				C244114F1AD6B5AF0024AF73 /* LaunchScreen.xib */,
 				C24411451AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld */,
+				C26BEF851AD7A64900DDFF25 /* Donorlist.swift */,
 				C24411411AD6B5AF0024AF73 /* Supporting Files */,
 			);
 			path = BloodCloudapp;
@@ -93,6 +167,14 @@
 		C24411411AD6B5AF0024AF73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C281BC311ADE8D4100BE60F3 /* GoogleDataProvider.swift */,
+				C281BC2E1ADE8CBD00BE60F3 /* GooglePlace.swift */,
+				C234CFFA1ADBE72300263F56 /* radiobutton-checked-sm-th.png */,
+				C234CFF81ADBE21B00263F56 /* Sign-RadioButton02-Unchecked.png */,
+				C234CFF21ADBC5CD00263F56 /* SSRadioButtonsController.swift */,
+				C244116A1AD6B7770024AF73 /* logo.png */,
+				C24411681AD6B7200024AF73 /* CAGradientLayer+Convience.swift */,
+				C24411661AD6B7150024AF73 /* header.swift */,
 				C24411421AD6B5AF0024AF73 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +195,25 @@
 				C244115B1AD6B5AF0024AF73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2ED8B8A1AD7F02E00385E94 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C2ED8B881AD7EF3900385E94 /* SystemConfiguration.framework */,
+				C2ED8B861AD7EF2700385E94 /* QuartzCore.framework */,
+				C2ED8B841AD7EF0200385E94 /* OpenGLES.framework */,
+				C2ED8B821AD7EEDA00385E94 /* libz.dylib */,
+				C2ED8B801AD7EEBF00385E94 /* libicucore.dylib */,
+				C2ED8B7E1AD7EEA400385E94 /* libc++.dylib */,
+				C2ED8B7C1AD7EE9000385E94 /* ImageIO.framework */,
+				C2ED8B7A1AD7EE8100385E94 /* GLKit.framework */,
+				C2ED8B781AD7EE6E00385E94 /* CoreText.framework */,
+				C2ED8B761AD7EE5900385E94 /* CoreLocation.framework */,
+				C2ED8B741AD7EE4C00385E94 /* CoreData.framework */,
+				C2ED8B721AD7EE4000385E94 /* AVFoundation.framework */,
+			);
+			name = libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +296,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C244114C1AD6B5AF0024AF73 /* Main.storyboard in Resources */,
+				C232803C1AD80E7700CE70ED /* Main.storyboard in Resources */,
+				C244116B1AD6B7770024AF73 /* logo.png in Resources */,
+				C234CFF91ADBE21B00263F56 /* Sign-RadioButton02-Unchecked.png in Resources */,
 				C24411511AD6B5AF0024AF73 /* LaunchScreen.xib in Resources */,
 				C244114E1AD6B5AF0024AF73 /* Images.xcassets in Resources */,
+				C234CFFB1ADBE72300263F56 /* radiobutton-checked-sm-th.png in Resources */,
+				C2ED8B711AD7B39C00385E94 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C232803B1AD80DF000CE70ED /* mapsController.swift in Sources */,
+				C281BC321ADE8D4100BE60F3 /* GoogleDataProvider.swift in Sources */,
+				C234CFF31ADBC5CD00263F56 /* SSRadioButtonsController.swift in Sources */,
+				C281BC2F1ADE8CBD00BE60F3 /* GooglePlace.swift in Sources */,
+				C24411671AD6B7150024AF73 /* header.swift in Sources */,
 				C24411491AD6B5AF0024AF73 /* ViewController.swift in Sources */,
 				C24411471AD6B5AF0024AF73 /* BloodCloudapp.xcdatamodeld in Sources */,
+				C281BC291ADE80FE00BE60F3 /* routeController.swift in Sources */,
+				C24411691AD6B7200024AF73 /* CAGradientLayer+Convience.swift in Sources */,
+				C26BEF861AD7A64A00DDFF25 /* Donorlist.swift in Sources */,
 				C24411441AD6B5AF0024AF73 /* AppDelegate.swift in Sources */,
+				C234CFF71ADBC8AE00263F56 /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +456,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Prasanth/Downloads/GoogleMaps-iOS-1.9.2",
+				);
 				INFOPLIST_FILE = BloodCloudapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BloodCloudapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +474,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Prasanth/Downloads/GoogleMaps-iOS-1.9.2",
+				);
 				INFOPLIST_FILE = BloodCloudapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BloodCloudapp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +540,7 @@
 				C24411621AD6B5AF0024AF73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C24411631AD6B5AF0024AF73 /* Build configuration list for PBXNativeTarget "BloodCloudappTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +549,7 @@
 				C24411651AD6B5AF0024AF73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
